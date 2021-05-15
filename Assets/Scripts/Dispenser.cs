@@ -17,7 +17,7 @@ public class Dispenser : MonoBehaviour, IPointerDownHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log($"Selected icecream: {_icecream.Name}");
-        _display.AddIcecream(_icecream);
+        if(_display.Interactable)
+            _display.AddIcecream(_icecream);
     }
 }
