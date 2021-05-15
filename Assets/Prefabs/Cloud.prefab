@@ -63,6 +63,62 @@ PrefabInstance:
       propertyPath: Color
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Last.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Last.Array.data[0]
+      value: _in the clouds
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Last.Array.data[1]
+      value: loud
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.data[0]
+      value: Cloudy_
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.data[1]
+      value: Misty_
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.data[2]
+      value: Clou
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.data[3]
+      value: Cloudy with a Chance of_
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.data[4]
+      value: Cloudy with a Chance of_
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[0]
+      value: wet
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[1]
+      value: mist
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[2]
+      value: loud
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[3]
+      value: puff
+      objectReference: {fileID: 0}
     - target: {fileID: 5735546512965340276, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: m_Name
       value: Cloud

@@ -63,6 +63,42 @@ PrefabInstance:
       propertyPath: Color
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Last.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Last.Array.data[0]
+      value: cado
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.data[0]
+      value: Avo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.data[1]
+      value: Avoca
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[0]
+      value: avo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[1]
+      value: cado
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[2]
+      value: oca
+      objectReference: {fileID: 0}
     - target: {fileID: 5735546512965340276, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: m_Name
       value: Avocado

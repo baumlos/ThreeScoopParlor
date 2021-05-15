@@ -59,6 +59,70 @@ PrefabInstance:
       propertyPath: Color
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Last.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Last.Array.data[0]
+      value: cano
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Last.Array.data[1]
+      value: ano
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Last.Array.data[2]
+      value: Volcano
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Last.Array.data[3]
+      value: lava
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.data[0]
+      value: Steaming
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.data[1]
+      value: Hot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.data[2]
+      value: Erupting
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.data[3]
+      value: Lava
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[0]
+      value: volca
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[1]
+      value: cano
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[2]
+      value: olca
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[3]
+      value: olcan
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[4]
+      value: lava
+      objectReference: {fileID: 0}
     - target: {fileID: 5735546512965340276, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: m_Name
       value: Volcano

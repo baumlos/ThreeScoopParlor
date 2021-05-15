@@ -61,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: Last.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: First.Array.size
@@ -77,15 +77,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: Last.Array.data[1]
-      value: slip
-      objectReference: {fileID: 0}
-    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
-      propertyPath: Last.Array.data[2]
       value: fish
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Last.Array.data[2]
+      value: leftover
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: Last.Array.data[3]
-      value: leftovers
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: First.Array.data[0]
