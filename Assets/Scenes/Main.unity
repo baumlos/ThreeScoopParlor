@@ -1960,7 +1960,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cd52186bea6f444d93d8ebf589eff07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _orders: []
+  _promptSentences:
+  - Make me a _ ice cream.
+  - I want a _ for me and my friend, please!
+  - Can you do a _ ice cream, please?
+  - I want three scoops of _ ice cream, please?
+  - Can I get a _ order?
+  - Uhm... how about... a... _ one, I guess?
+  - Yeah I wanna _ ice cream.
+  - I want ice cream. Must be _.
+  - Do you have _ flavours?
+  - I crave _ round balls.
+  - I scream for _ ice cream!
+  - Oi mate! Make me a _ one, willya?
+  - Lemme get that _ ice cream, aight?
+  _promptAdjectives:
+  - dangerous
+  - sexy
+  - ominous
+  - weird
+  - hot
+  - sad
+  - silent
+  - noisy
+  - crunchy
+  - tasty
+  - surprising
+  - innocent
+  - supercharged
 --- !u!1 &1397527666
 GameObject:
   m_ObjectHideFlags: 0

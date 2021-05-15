@@ -1,16 +1,47 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class FlavourGenerator : MonoBehaviour
 {
-    [SerializeField] private string[] _orders;
+    [SerializeField] private string[] _promptSentences;
+    [SerializeField] private string[] _promptAdjectives;
+    private int _sentenceIndex;
+    private int _adjectiveIndex;
+    
+
+    private void Start()
+    {
+        _promptSentences = RandomizeArray(_promptSentences);
+        _promptAdjectives = RandomizeArray(_promptAdjectives);
+    }
+
+    private string[] RandomizeArray(string[] array)
+    {
+        System.Random rnd = new System.Random();
+        return array.OrderBy(x => rnd.Next()).ToArray();
+    }
 
     public string GenerateOrder()
     {
-        Debug.Log("TODO generate new order");
-        return "todo";
+        var sentenceParts = _promptSentences[_sentenceIndex++].Split('_');
+        var order = $"{sentenceParts[0]}{_promptAdjectives[_adjectiveIndex++]}{sentenceParts[1]}";
+        
+        // check if reached end of prompts
+        if (_sentenceIndex >= _promptSentences.Length)
+        {
+            _promptSentences = RandomizeArray(_promptSentences);
+            _sentenceIndex = 0;
+        }
+        if(_adjectiveIndex > _promptAdjectives.Length)
+        {
+            _promptAdjectives = RandomizeArray(_promptAdjectives);
+            _adjectiveIndex = 0;
+        }
+        return order;
     }
 
     public string GetResult(List<Icecream> icecreams)
@@ -19,7 +50,7 @@ public class FlavourGenerator : MonoBehaviour
         return NameCombination(icecreams);
     }
 
-    public string NameCombination(List<Icecream> icecreams)
+    private string NameCombination(List<Icecream> icecreams)
     {
         string result = "";
         for (var i = 0; i < icecreams.Count; i++)
