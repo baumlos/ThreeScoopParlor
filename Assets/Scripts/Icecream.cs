@@ -1,9 +1,10 @@
 using UnityEngine;
-
-[CreateAssetMenu(fileName = "New Icecream Flavour", menuName = "Icecream")]
 public class Icecream : MonoBehaviour
 {
     public string Name;
+    public string[] First;
+    public string[] Middle;
+    public string[] Last;
     public enum FlavourColor
     {
         White,
