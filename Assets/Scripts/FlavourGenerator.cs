@@ -70,8 +70,8 @@ public class FlavourGenerator : MonoBehaviour
                         result += middle;
                     break;
                 case 2:
-                    var last = icecream.Last[Random.Range(0, icecream.Last.Length)];
-                    if (last.Any(char.IsUpper))
+                    var last = icecream.Last[Random.Range(0, icecream.Last.Length)].Replace("_", " ");
+                    if ((last[0].ToString()).Any(char.IsUpper))
                         result += " ";
                     result += last;
                     break;

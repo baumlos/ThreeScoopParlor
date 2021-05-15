@@ -369,6 +369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 292796037}
   - component: {fileID: 292796038}
+  - component: {fileID: 292796039}
   m_Layer: 0
   m_Name: IceCreamDisplay
   m_TagString: Untagged
@@ -414,9 +415,30 @@ MonoBehaviour:
   - 0.5
   - 1
   - 1.5
+  _moveForwardAmount: 2
+  _moveForwardSpeed: 10
   _nextOrderButton: {fileID: 1176650779}
   _orderText: {fileID: 504791868}
   _resultText: {fileID: 535884544}
+--- !u!95 &292796039
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292796036}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cec8e5a472540ec46989292d3f9accb3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &299110960
 GameObject:
   m_ObjectHideFlags: 0
