@@ -295,7 +295,7 @@ PrefabInstance:
     - target: {fileID: 2590083420354290275, guid: a0f26844ff9892540974750d8132401d, type: 3}
       propertyPath: _icecream
       value: 
-      objectReference: {fileID: 4360793759900403849, guid: 2dc0dda490657b344ac42d077dcd8e2f, type: 3}
+      objectReference: {fileID: 7351047360953080860, guid: 6811fff0bdf18564b9975cbef6b1546d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0f26844ff9892540974750d8132401d, type: 3}
 --- !u!1001 &244839068
@@ -356,7 +356,7 @@ PrefabInstance:
     - target: {fileID: 2590083420354290275, guid: a0f26844ff9892540974750d8132401d, type: 3}
       propertyPath: _icecream
       value: 
-      objectReference: {fileID: 4360793759900403849, guid: 2dc0dda490657b344ac42d077dcd8e2f, type: 3}
+      objectReference: {fileID: 4716734593040636873, guid: 26cefc586da5d8b4fbfbdce03a13cb0e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0f26844ff9892540974750d8132401d, type: 3}
 --- !u!1 &292796036
@@ -410,6 +410,10 @@ MonoBehaviour:
   - {fileID: 1082176405}
   - {fileID: 690473196}
   - {fileID: 1489078532}
+  _combinedSoundOffset:
+  - 5
+  - 6
+  - 7
   _nextOrderButton: {fileID: 1176650779}
   _orderText: {fileID: 504791868}
   _resultText: {fileID: 535884544}
@@ -597,7 +601,7 @@ PrefabInstance:
     - target: {fileID: 2590083420354290275, guid: a0f26844ff9892540974750d8132401d, type: 3}
       propertyPath: _icecream
       value: 
-      objectReference: {fileID: 4360793759900403849, guid: 2dc0dda490657b344ac42d077dcd8e2f, type: 3}
+      objectReference: {fileID: 8157275838544954645, guid: 2c878a19f3275134e8c93f7ed54981a6, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0f26844ff9892540974750d8132401d, type: 3}
 --- !u!1 &504791866
@@ -1956,6 +1960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cd52186bea6f444d93d8ebf589eff07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _orders: []
 --- !u!1 &1397527666
 GameObject:
   m_ObjectHideFlags: 0
@@ -2554,6 +2559,6 @@ PrefabInstance:
     - target: {fileID: 2590083420354290275, guid: a0f26844ff9892540974750d8132401d, type: 3}
       propertyPath: _icecream
       value: 
-      objectReference: {fileID: 4360793759900403849, guid: 2dc0dda490657b344ac42d077dcd8e2f, type: 3}
+      objectReference: {fileID: 3720151410280742663, guid: 37546dfa130e06e4383adf2e115295d6, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0f26844ff9892540974750d8132401d, type: 3}

@@ -1,4 +1,8 @@
+using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.Windows.WebCam;
+
 public class Icecream : MonoBehaviour
 {
     public string Name;
@@ -24,4 +28,22 @@ public class Icecream : MonoBehaviour
         Joy
     }
     public FlavourMood Mood;
+
+    private AudioSource _audioSource;
+
+    private void Awake()
+    {
+        _audioSource = GetComponent<AudioSource>();
+    }
+
+    public void PlaySound(float offset)
+    {
+        StartCoroutine(PlaySoundCoroutine(offset));
+    }
+
+    private IEnumerator PlaySoundCoroutine(float offset)
+    {
+        yield return new WaitForSeconds(offset);
+        _audioSource.Play();
+    }
 }

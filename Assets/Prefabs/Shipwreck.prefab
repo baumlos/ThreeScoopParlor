@@ -147,5 +147,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shipwreck
       objectReference: {fileID: 0}
+    - target: {fileID: 5930101619315475839, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b9255ac69d848c84a9d33be74682727d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}

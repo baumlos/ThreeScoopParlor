@@ -9,6 +9,8 @@ public class IcecreamDisplay : MonoBehaviour
 {
     private const int MAX_ICE_CREAM_AMOUNT = 3;
     [SerializeField] private Transform[] _scoops = new Transform[MAX_ICE_CREAM_AMOUNT];
+    [SerializeField] private float[] _combinedSoundOffset = new float[MAX_ICE_CREAM_AMOUNT];
+    
     private List<Icecream> _icecreams = new List<Icecream>();
     private int currentScoop;
     
@@ -43,12 +45,19 @@ public class IcecreamDisplay : MonoBehaviour
 
     private void FinishOrder()
     {
-        Debug.Log("TODO finish order");
+        // ui
         _nextOrderButton.gameObject.SetActive(true);
         _resultText.gameObject.SetActive(true);
         _resultText.text = _flavourGenerator.GetResult(_icecreams);
+        
+        for (var i = 0; i < _icecreams.Count; i++)
+        {
+            _icecreams[i].PlaySound(_combinedSoundOffset[i]);
+        }
+        
+        
     }
-    
+
     // order loop logic
     private void NewOrder()
     {

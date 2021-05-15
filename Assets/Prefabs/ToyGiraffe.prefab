@@ -139,5 +139,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: ToyGiraffe
       objectReference: {fileID: 0}
+    - target: {fileID: 5930101619315475839, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7265780237f28d04c87b700fa334c3cb, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}

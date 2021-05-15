@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class FlavourGenerator : MonoBehaviour
 {
-    // color matrix
-    //
+    [SerializeField] private string[] _orders;
 
     public string GenerateOrder()
     {
