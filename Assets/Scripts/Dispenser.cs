@@ -8,16 +8,16 @@ using UnityEngine.EventSystems;
 public class Dispenser : MonoBehaviour, IPointerDownHandler
 {
     [SerializeField] private Icecream _icecream;
-    private Display _display;
+    private IcecreamDisplay _icecreamDisplay;
 
     private void Awake()
     {
-        _display = FindObjectOfType<Display>();
+        _icecreamDisplay = FindObjectOfType<IcecreamDisplay>();
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        if(_display.Interactable)
-            _display.AddIcecream(_icecream);
+        if(_icecreamDisplay.Interactable)
+            _icecreamDisplay.AddIcecream(_icecream);
     }
 }
