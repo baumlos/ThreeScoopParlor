@@ -411,9 +411,9 @@ MonoBehaviour:
   - {fileID: 690473196}
   - {fileID: 1489078532}
   _combinedSoundOffset:
-  - 5
-  - 6
-  - 7
+  - 0.5
+  - 1
+  - 1.5
   _nextOrderButton: {fileID: 1176650779}
   _orderText: {fileID: 504791868}
   _resultText: {fileID: 535884544}
