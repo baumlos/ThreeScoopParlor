@@ -65,15 +65,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: Last.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
-      propertyPath: First.Array.size
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: First.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: Middle.Array.size
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: Last.Array.data[0]
@@ -89,11 +89,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: Last.Array.data[3]
-      value: nanah
+      value: Longneck
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: Last.Array.data[4]
-      value: Longneck
+      value: nanah
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: First.Array.data[0]
@@ -109,7 +109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: First.Array.data[3]
-      value: Baby_
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: Middle.Array.data[0]
@@ -121,15 +121,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: Middle.Array.data[2]
-      value: affe
-      objectReference: {fileID: 0}
-    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
-      propertyPath: Middle.Array.data[3]
       value: neck
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
-      propertyPath: Middle.Array.data[4]
+      propertyPath: Middle.Array.data[3]
       value: long
+      objectReference: {fileID: 0}
+    - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
+      propertyPath: Middle.Array.data[4]
+      value: affe
       objectReference: {fileID: 0}
     - target: {fileID: 5608810357107795674, guid: 8cff52394fad2214392194766fd3e1f0, type: 3}
       propertyPath: Middle.Array.data[5]
