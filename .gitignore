@@ -67,3 +67,6 @@ crashlytics-build.properties
 
 # Visual studio
 *.vsconfig
+
+todo.txt
+todo.txt.meta

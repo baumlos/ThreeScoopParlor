@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Icecream Flavour", menuName = "Icecream")]
-public class Icecream : ScriptableObject
+public class Icecream : MonoBehaviour
 {
     public string Name;
     public enum FlavourColor
@@ -23,7 +23,4 @@ public class Icecream : ScriptableObject
         Joy
     }
     public FlavourMood Mood;
-
-    public Mesh Mesh;
-    public Texture Texture;
 }
